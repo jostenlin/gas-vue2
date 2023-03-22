@@ -1,16 +1,17 @@
-<script setup>
-  import { ref } from 'vue'
-
-  defineProps({
-    msg: String,
-  })
-
-  const count = ref(0)
+<script>
+export default {
+  name: 'HelloWorld',
+  data () {
+    return {
+      msg: 'Welcome to GAS-Clasp-Vue.js'
+    }
+  }
+}
 </script>
 
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <p>{{ msg }}</p>
     <el-button type="primary">Primary</el-button>
   </div> 
 </template>

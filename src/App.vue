@@ -1,18 +1,14 @@
-<script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
-  import Table1 from '@/components/Table1.vue'
-  export default {
-    name:"App"    
-  }
-  
-
-</script>
-
 <template>
-  <div>
-    
-  </div>  
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
 <style scoped>
 .logo {
