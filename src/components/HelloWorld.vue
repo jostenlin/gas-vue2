@@ -1,12 +1,12 @@
 <script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to GAS-Clasp-Vue.js'
+  export default {
+    name: 'HelloWorld',
+    data () {
+      return {
+        msg: 'Welcome to GAS-Clasp-Vue.js'
+      }
     }
   }
-}
 </script>
 
 <template>
