@@ -5,6 +5,7 @@ import App from './App.vue'
 import './style.css'
 const app = createApp(App);
 app.use(router);
+router.push('/');
 
 // ElementPlus完整引用
 // import ElementPlus from 'element-plus'
